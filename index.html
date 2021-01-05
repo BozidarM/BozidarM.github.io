@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bozidar's Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home
+                        <span class="sr-only">(current)</span>
+                        </a>
+                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="home-page" id="home">
+        <div class="container">
+            <div class="row height-title-row">
+                <div class="col-12 text-center">
+                    <h2>Home</h2>
+                </div>
+            </div>
+            <div class="row height-content-row ">
+              <div class="col-lg-6 col-sm-12 text-center">
+                  <img src="assets/profileImg.jpg" alt="Profile picture..." class="img-fluid img-size rounded-circle">
+              </div>
+              <div class="col-lg-6 col-sm-12 text-center">
+                  <h1>Hi, I am Bozidar Mladenovic</h1>
+                  <p>Enthusiastic and team player kind of person. 
+                    Currently, I am studying Software and Information engineering at Singidunum University in Belgrade
+                    and i am looking for experience and projects to improve my knowledge and skills in software development.</p>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="projects-page" id="projects">
+        <div class="container-fluid">
+            <div class="row height-title-row">
+                <div class="col-12 text-center white-text">
+                    <h2>Projects</h2>
+                </div>
+            </div>
+            <div class="row height-content-row ">
+              <div class="col-lg-4 col-sm-12 text-center">
+                <img src="assets/bishop-gif.gif" alt="Loading..." class="img-fluid">
+              </div>
+              <div class="col-lg-4 col-sm-12 text-center">
+                  <img src="assets/newsapp-gif.gif" alt="Loading..." class="img-fluid project-img-size" >
+              </div>
+              <div class="col-lg-4 col-sm-12 text-center">
+                  <img src="assets/cpbay-gif.gif" alt="Loading..." class="img-fluid">
+            </div>
+            </div>
+        </div>
+    </div>      
+    <div class="about-page" id="about">
+        <div class="container">
+            <div class="row height-title-row">
+                <div class="col-12 text-center">
+                    <h2>About</h2>
+                </div>
+            </div>
+            
+            <div class="row white-text darkbox">
+                <div class="col-lg-4 col-sm-12">
+                  <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-education-list" data-toggle="list" href="#list-education" role="tab" aria-controls="education">Education</a>
+                    <a class="list-group-item list-group-item-action" id="list-skills-list" data-toggle="list" href="#list-skills" role="tab" aria-controls="skills">Skills</a>
+                    <a class="list-group-item list-group-item-action" id="list-experience-list" data-toggle="list" href="#list-experience" role="tab" aria-controls="experience">Experience</a>
+                    <a class="list-group-item list-group-item-action" id="list-languages-list" data-toggle="list" href="#list-languages" role="tab" aria-controls="languages">Languages</a>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-sm-12 text-center">
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-education" role="tabpanel" aria-labelledby="list-education-list">
+                        <h3>2018-NOW | SINGIDUNUM UNIVERSITY BELGRADE</h3>
+                        <p>Software and information engineering</p>
+                        <h3>2013-2018 | TECHNICAL SCHOOL "PROTA STEVAN DIMITRIJEVIC" ALEKSINAC</h3>
+                        <p>Computer technician</p>
+                    </div>
+                    <div class="tab-pane fade" id="list-skills" role="tabpanel" aria-labelledby="list-skills-list">
+                        <p>JAVA, Android Studio</p>
+                        <p>HTML, CSS, JavaScript, Bootstrap, Sass</p>
+                        <p>PHP</p>
+                        <p>MySQL</p>
+                        <p>Git</p>
+                    </div>
+                    <div class="tab-pane fade" id="list-experience" role="tabpanel" aria-labelledby="list-experience-list">
+                        <p>University and home projects: <a href="https://github.com/BozidarM" target="__blank" class="link">GitHub</a></p>
+                        <br>
+                        <p>Joined in Advanced students group and Parliament at Singidunum University</p>
+                    </div>
+                    <div class="tab-pane fade" id="list-languages" role="tabpanel" aria-labelledby="list-languages-list">
+                        <p>Serbian</p>
+                        <p>English</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="contact-page" id="contact">
+        <div class="container">
+            <div class="row height-title-row">
+                <div class="col-12 text-center white-text">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+            <div class="row height-content-row ">
+                <div class="col-lg-6 col-sm-12 text-center">
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/bozidar-mladenovic-862b77199/" class="linkedin" target="__blank">LinkedIn Link</a>
+                        <a href="https://github.com/BozidarM" class="github" target="__blank">GitHub Link</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 text-center white-text">
+                    <h3>E-mail:</h3>
+                    <p>bozidar.mladenovic1@gmail.com</p>
+                    <h3>Phone:</h3>
+                    <p>+381/60-469-357-1</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row height-title-row">
+                <div class="col-12 text-center white-text">
+                    <p> © 2020 Copyright: <a href="https://github.com/BozidarM">BozidarM</a></p>
+                </div>
+            </div>
+        </div>
+    </div>             
+</body>
+</html>
