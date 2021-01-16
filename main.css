@@ -55,6 +55,11 @@ html{
     color: #FFFFFF;
 }
 
+.list-group-item:hover{
+    background-color: #121213 !important;
+    border-color: #fff !important;
+}
+
 
 h1{
     font-family: 'Fugaz One', cursive;
