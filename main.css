@@ -98,8 +98,41 @@ p{
     justify-content: center;
 }
 
-.project-img-size{
+.project-img-size-android{
     width: 300px;
+    height: 580px !important;
+}
+
+.project-img-size{
+    width: 600px;
+}
+
+.gridGallery{
+    display: grid;
+    grid-template: "imga1 img1 imga2"
+                   "imga1 img2 imga2";
+    align-content: center;
+    justify-content: center;
+}
+
+#imga1{
+    grid-area: imga1;
+    margin: 5px;
+}
+
+#imga2{
+    grid-area: imga2;
+    margin: 5px;
+}
+
+#img1{
+    grid-area: img1;
+    margin: 5px;
+}
+
+#img2{
+    grid-area: img2;
+    margin: 5px;
 }
 
 .projects-page img{
@@ -183,8 +216,39 @@ p{
         margin-bottom: 50px;
     }
 
-    .project-img-size{
+    .project-img-size-android{
         width: 250px;
+        height: 350px !important;
+    }
+
+    .project-img-size{
+        width: 400px;
+    }
+
+    .gridGallery{
+        grid-template: "img1 img1"
+                       "img2 img2"
+                       "imga1 imga2";
+    }
+
+    #imga1{
+        grid-area: imga1;
+        margin: 5px 0px;
+    }
+    
+    #imga2{
+        grid-area: imga2;
+        margin: 5px 0px;
+    }
+    
+    #img1{
+        grid-area: img1;
+        margin: 5px 0px;
+    }
+    
+    #img2{
+        grid-area: img2;
+        margin: 5px 0px;
     }
 
     .contact-page p{
